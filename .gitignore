@@ -1,5 +1,18 @@
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+venv/
 .venv/
-.env
-.ipynb_checkpoints/
+env/
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
