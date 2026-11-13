@@ -1,17 +1,33 @@
-# Exhaustive-Search
+# Exhaustive Search – Travelling Salesperson Problem
 
-## Problem Statement
+## Aim
+To solve the Travelling Salesperson Problem using exhaustive search.
 
-## Algorithm / Approach
+## Theory
+Exhaustive search is a technique that checks all possible solutions
+to find the optimal solution.
 
-## Pseudocode
+In TSP, it checks every possible tour and selects the tour
+with the minimum total cost.
 
-## Time and Space Complexity
+## Algorithm
+1. Define the distance matrix.
+2. Fix the starting city.
+3. Generate all permutations of the remaining cities.
+4. Calculate the cost of every possible tour.
+5. Compare the tour costs.
+6. Display the minimum-cost tour.
 
-## Sample Input / Output
+## Time Complexity
+O(n!)
 
-## Screenshots / Graphs
+## Space Complexity
+O(n), excluding permutation-generation internals.
 
-## Experimental Results
+## Sample Output
+Best Tour: 0 -> 1 -> 3 -> 2 -> 0
+Minimum Tour Cost: 80
 
-## Learning Outcomes
+## Learning Outcome
+Learned how exhaustive search checks all possible solutions
+to obtain an optimal result.
