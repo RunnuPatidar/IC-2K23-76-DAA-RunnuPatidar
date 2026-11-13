@@ -1,17 +1,34 @@
-# Sum-of-Subsets
+# Sum of Subsets
 
-## Problem Statement
+## Aim
+To find subsets of a given set whose sum equals a target value
+using backtracking.
 
-## Algorithm / Approach
+## Theory
+The Sum of Subsets problem finds combinations of elements
+whose total is equal to a specified target.
 
-## Pseudocode
+Backtracking explores possible combinations by including
+or excluding each element.
 
-## Time and Space Complexity
+## Algorithm
+1. Initialize the given set and target sum.
+2. Start from the first element.
+3. Include the current element and update the sum.
+4. Check whether the target sum is reached.
+5. If the sum exceeds the target, backtrack.
+6. Exclude the current element and explore the remaining elements.
+7. Display all valid subsets.
 
-## Sample Input / Output
+## Time Complexity
+O(2^n), where n is the number of elements.
 
-## Screenshots / Graphs
+## Space Complexity
+O(n), excluding the output.
 
-## Experimental Results
+## Sample Output
+Subset found: [3, 4, 5]
+Subset found: [5, 7]
 
-## Learning Outcomes
+## Learning Outcome
+Learned to find valid subsets using recursive backtracking.
