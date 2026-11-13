@@ -1,17 +1,29 @@
-# Graph-Adjacency-List
+# Graph Representation – Adjacency List
 
-## Problem Statement
+## Aim
+To represent a graph using an adjacency list.
 
-## Algorithm / Approach
+## Theory
+An adjacency list stores each vertex along with a list
+of all vertices directly connected to it.
 
-## Pseudocode
+## Algorithm
+1. Create an empty list for every vertex.
+2. Define the edges of the graph.
+3. Add each connected vertex to the corresponding list.
+4. Display the adjacency list.
 
-## Time and Space Complexity
+## Time Complexity
+O(V + E) for constructing the adjacency list.
 
-## Sample Input / Output
+## Space Complexity
+O(V + E)
 
-## Screenshots / Graphs
+## Sample Output
+A : ['B', 'C']
+B : ['A', 'D']
+C : ['A', 'D']
+D : ['B', 'C']
 
-## Experimental Results
-
-## Learning Outcomes
+## Learning Outcome
+Learned how to represent graphs using adjacency lists.

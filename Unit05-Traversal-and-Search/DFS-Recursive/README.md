@@ -1,17 +1,27 @@
-# DFS-Recursive
+# DFS – Recursive
 
-## Problem Statement
+## Aim
+To implement Depth First Search using recursion.
 
-## Algorithm / Approach
+## Theory
+DFS is a graph traversal algorithm that explores a vertex
+and recursively visits its unvisited adjacent vertices.
 
-## Pseudocode
+## Algorithm
+1. Start from the selected vertex.
+2. Mark the vertex as visited.
+3. Display the vertex.
+4. Visit every unvisited adjacent vertex recursively.
+5. Stop when all reachable vertices are visited.
 
-## Time and Space Complexity
+## Time Complexity
+O(V + E)
 
-## Sample Input / Output
+## Space Complexity
+O(V), including the recursion stack.
 
-## Screenshots / Graphs
+## Sample Output
+DFS Recursive Traversal: A B D E F C
 
-## Experimental Results
-
-## Learning Outcomes
+## Learning Outcome
+Learned recursive graph traversal using Depth First Search.

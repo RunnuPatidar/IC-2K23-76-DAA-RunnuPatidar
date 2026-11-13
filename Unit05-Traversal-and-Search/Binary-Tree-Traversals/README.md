@@ -1,17 +1,39 @@
-# Binary-Tree-Traversals
+# Binary Tree Traversals
 
-## Problem Statement
+## Aim
+To implement different traversal techniques of a binary tree.
 
-## Algorithm / Approach
+## Theory
+Tree traversal is the process of visiting every node of a tree.
+There are three main depth-first traversal techniques.
 
-## Pseudocode
+## Algorithms
 
-## Time and Space Complexity
+### 1. Inorder
+1. Traverse the left subtree.
+2. Visit the root node.
+3. Traverse the right subtree.
 
-## Sample Input / Output
+### 2. Preorder
+1. Visit the root node.
+2. Traverse the left subtree.
+3. Traverse the right subtree.
 
-## Screenshots / Graphs
+### 3. Postorder
+1. Traverse the left subtree.
+2. Traverse the right subtree.
+3. Visit the root node.
 
-## Experimental Results
+## Time Complexity
+O(n) for each traversal.
 
-## Learning Outcomes
+## Space Complexity
+O(h), where h is the height of the tree.
+
+## Sample Output
+Inorder: 4 2 5 1 6 3 7
+Preorder: 1 2 4 5 3 6 7
+Postorder: 4 5 2 6 7 3 1
+
+## Learning Outcome
+Learned the three basic binary tree traversal techniques.

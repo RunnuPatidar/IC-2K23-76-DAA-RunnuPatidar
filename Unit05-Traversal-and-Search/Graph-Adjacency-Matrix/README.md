@@ -1,17 +1,30 @@
-# Graph-Adjacency-Matrix
+# Graph Representation – Adjacency Matrix
 
-## Problem Statement
+## Aim
+To represent an undirected graph using an adjacency matrix.
 
-## Algorithm / Approach
+## Theory
+An adjacency matrix is a two-dimensional array.
+A value of 1 represents an edge between two vertices,
+while 0 represents no edge.
 
-## Pseudocode
+## Algorithm
+1. Define the vertices and edges.
+2. Create a square matrix initialized with zeros.
+3. For every edge, mark the corresponding matrix positions as 1.
+4. Display the matrix.
 
-## Time and Space Complexity
+## Time Complexity
+O(V^2 + E) for this implementation.
 
-## Sample Input / Output
+## Space Complexity
+O(V^2)
 
-## Screenshots / Graphs
+## Sample Output
+A [0, 1, 1, 0]
+B [1, 0, 0, 1]
+C [1, 0, 0, 1]
+D [0, 1, 1, 0]
 
-## Experimental Results
-
-## Learning Outcomes
+## Learning Outcome
+Learned graph representation using an adjacency matrix.
